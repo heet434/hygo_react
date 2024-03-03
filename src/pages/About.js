@@ -2,6 +2,8 @@ import React from "react";
 import "./About.css";
 import InfoCard from "../components/InfoCard";
 import GridLines from "react-gridlines"
+import { useInView } from 'react-intersection-observer';
+
 // import hyacinth from "../assets/hyacinth.png";
 var hyacinth_text = 
 `Water hyacinth is a weed, a parasite that can duplicate itself every nine days. Due to its fast growing nature, the weed quickly spread across most of the wetlands in India.
@@ -24,20 +26,30 @@ var germs_text =
  These, when used, pose several threats to personal hygiene. 
  In India itself, over 10 Lakh of groin fungal infections, known as tinea cruris are reported and a lot more go unreported.`
 function About() {
+    const [ref, inView] = useInView({
+        threshold: 0,
+    });
+    const [ref2, inView2] = useInView({
+        threshold: 0,
+    });
+    const [ref3, inView3] = useInView({
+        threshold: 0,
+    });
+    
     return (
         <GridLines className="grid-area" cellWidth={111} strokeWidth={2} cellWidth2={111} lineColor="#BAEE83">
             
         <div className="about" id="about">
             {/* <GridLines className="grid-area" cellWidth={111} strokeWidth={1} cellWidth2={111} lineColor="#BAEE83"> */}
             <div className="about-content">
-                <div className="info-card-container">
-                    <InfoCard align="left" img='hyacinth' alt="Hyacinth" title="About Hyacinth" content={hyacinth_text} arrow_h={455} textW = {629} />
+                <div id="c1" className={`info-card-container hidden ${inView ? 'visible':''}`} ref={ref}>
+                    <InfoCard key={1} align="left" img='hyacinth' alt="Hyacinth" title="About Hyacinth" content={hyacinth_text} arrow_h={455} textW = {629} />
                 </div>
-                <div className="info-card-container">
-                    <InfoCard align="right" img='cotton' alt="Cotton" title="Cotton Waste generation" content={cotton_text} arrow_h={455} textW = {453}/>
+                <div id="c2" className={`info-card-container hidden ${inView2 ? 'visible':''}`} ref={ref2}>
+                    <InfoCard key={2} align="right" img='cotton' alt="Cotton" title="Cotton Waste generation" content={cotton_text} arrow_h={455} textW = {453}/>
                 </div>
-                <div className="info-card-container">
-                    <InfoCard align="left" img='germs' alt="Dirty Seat" title="Hazards of" title2="Unhygienic Commodes"content={germs_text} arrow_h={455} textW = {467}/>
+                <div id="c3" className={`info-card-container hidden ${inView3 ? 'visible':''}`} ref={ref3}>
+                    <InfoCard key={3} align="left" img='germs' alt="Dirty Seat" title="Hazards of" title2="Unhygienic Commodes"content={germs_text} arrow_h={455} textW = {467} />
                 </div>
             </div>
             {/* </GridLines> */}

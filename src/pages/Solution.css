@@ -1,0 +1,105 @@
+.solution .content{
+    display: flex;
+    position: relative;
+    height: 100vh;
+    z-index: 10;
+    top : -100vh;
+    /* overflow: hidden; */
+}
+
+.solution {
+    /* background-color: #BAEE83; */
+    /* padding: 18px 68px; */
+    height: 100vh;
+    overflow: hidden;
+}
+
+.solution .content h1{
+    color: #012317;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 90px */
+    letter-spacing: -0.9px;
+}
+
+.solution-content div{
+    display: flex;
+    gap: 93px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.solution-content div p{
+    color: #053805;
+    text-align: justify;
+    font-family: "DM Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 111%; /* 26.64px */
+    letter-spacing: -0.24px;
+}
+
+.solution-content div{
+    margin-top: 68px;
+}
+
+.solution-title {
+    top: 50%; 
+    transform: translateY(-50%);
+    position: relative;
+    height: fit-content;
+    margin-left: 40px;
+}
+
+.product-images{
+    height: 100%;
+    position: relative;
+    top: -40px;
+    width: 100%;
+}
+
+.product-images img{
+    position: relative;
+    margin: auto;
+}
+
+.solution-content h2{
+    color: #053805;
+    font-family: Nohemi;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 34px */
+    letter-spacing: 1.02px;
+}
+.solution-content article{
+    margin-top: 38px;
+}
+
+.grid-area2{
+    z-index: -10;
+    width: 200vw;
+    height: 300vh;  
+    transform: rotateZ(-30deg);
+    position: relative;
+    top: -50vw;
+    background-color: #BAEE83;
+}
+.grid-bg{
+    width: 100vh;
+    height: 100vh;
+    overflow: contain;
+}
+.solution-bg{
+    position: relative;
+    top: 0;
+    z-index: -2;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}

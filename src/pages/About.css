@@ -14,4 +14,24 @@
 }
 .about{
     padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.visible{
+    visibility: visible;
+    display: block;
+    animation: smoothIn 1s;
+}
+
+@keyframes smoothIn {
+    from{
+        transform: translateY(200px);
+    }
+    to{
+        transform: translateY(0);
+    }
 }

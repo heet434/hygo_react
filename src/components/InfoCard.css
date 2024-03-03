@@ -4,7 +4,7 @@
     position: relative;
     gap: 66.5px;
     width: fit-content;
-    margin: auto;
+    margin: 0 auto;
     text-align: left;
 }
 .info-card_r{
@@ -13,7 +13,7 @@
     position: relative;
     gap: 66.5px;
     width: fit-content;
-    margin: auto;
+    margin: 0 auto;
     text-align: right;
 }
 
@@ -31,7 +31,7 @@
     position: relative;
     width: 354px;
     height: 354px;
-    margin: auto;
+    margin: 0 auto;
     border-radius: 354px;
     overflow: hidden;
     top: 50%;
@@ -67,4 +67,40 @@
 }
 .info-card-text{
     max-width: 629px;
+}
+
+.card_visible{
+    animation: rotate 20s linear infinite;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+        transform: translateY(-50%);
+        /* transform: translateY(-40%); */
+    }
+    20%{
+        transform: rotate(90deg);
+        transform: translateY(-50%);
+        /* transform: translateY(-40%); */
+    }
+    100%{
+        /* transform: translateY(0); */
+        transform: rotate(360deg);
+        /* transform: translateY(-40%); */
+        transform: translateY(-50%);
+    }
+}
+.cardb_visible{
+    animation: rotateb 20s linear infinite;
+}
+@keyframes rotateb{
+    0%{
+        transform: rotate(360deg);
+    }
+    20%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
 }
