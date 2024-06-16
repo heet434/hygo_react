@@ -1,70 +1,9 @@
-# Getting Started with Create React App
+# HyGo: Hygiene on the Go
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+HyGo was the startup founded by Kameng hostel in Kriti'24, the annual inter Hostel technical competition of [IIT Guwahati](https://www.iitg.ac.in/), in which we secured first place. The social startup focuses on environment friendly products like the Water Hyacinth and Cotton waste paper based toilet sheets. You can refer to the website [HyGo](https://heet434.github.io/hygo_react/) for further information on the startup and the product.
 
-## Available Scripts
+## The Website
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Initially as a learning attempt, as this website was just a landing page, I created [this website](https://heet434.github.io/hygo/) in Vanilla JS. ([link to the repo](https://github.com/heet434/hygo)) Then as I started learning ReactJS, I thought why not practice on the same website and create one for my startup, so I created the same in React, and the results are in this repo. [hygo_react](https://heet434.github.io/hygo_react/)</br>
+I use <ins>react-scroll</ins>, <ins>react-scroll-motion</ins> and <ins>react-intersection-observer</ins> for some of the animations I've used. </br>
+<ins>React Modal</ins> is helpful for creating a simple payment option through UPI QR code. For emails after payment conveying customer information from the form, as there is no backend, I use <ins>emailJS</ins> to send the information from the form through email. 
