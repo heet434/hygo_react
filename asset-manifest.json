@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/hygo_react/static/css/main.ba2d8fda.css",
+    "main.js": "/hygo_react/static/js/main.c7eb35c8.js",
+    "static/js/453.bf44c3ee.chunk.js": "/hygo_react/static/js/453.bf44c3ee.chunk.js",
+    "static/media/texture.png": "/hygo_react/static/media/texture.9fec060967421fa2f178.png",
+    "static/media/cotton.png": "/hygo_react/static/media/cotton.9c11f5d21b6a0c6841a4.png",
+    "static/media/hyacinth.png": "/hygo_react/static/media/hyacinth.e0b26d8210e9f6980aa6.png",
+    "static/media/logo.png": "/hygo_react/static/media/logo.59fac3bc89f778064214.png",
+    "static/media/germs.png": "/hygo_react/static/media/germs.f173bcd723587a02849b.png",
+    "static/media/hyacinth2.jpg": "/hygo_react/static/media/hyacinth2.f7f4b3c74490a93d22aa.jpg",
+    "static/media/qr.jpeg": "/hygo_react/static/media/qr.658dc613042cb58c81d3.jpeg",
+    "static/media/product2.png": "/hygo_react/static/media/product2.bba422e8e611ee6a7c86.png",
+    "static/media/product1.png": "/hygo_react/static/media/product1.844451300b3ac5032e12.png",
+    "index.html": "/hygo_react/index.html",
+    "main.ba2d8fda.css.map": "/hygo_react/static/css/main.ba2d8fda.css.map",
+    "main.c7eb35c8.js.map": "/hygo_react/static/js/main.c7eb35c8.js.map",
+    "453.bf44c3ee.chunk.js.map": "/hygo_react/static/js/453.bf44c3ee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba2d8fda.css",
+    "static/js/main.c7eb35c8.js"
+  ]
+}
