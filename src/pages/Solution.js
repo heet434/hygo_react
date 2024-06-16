@@ -53,7 +53,7 @@ function Solution(props) {
             <div className='solution-content' >
                 <div>
                     <article>
-                        <h2>Hyacinth</h2>
+                        <h2>Hyacinth</h2><br></br>
                         {getNewLine(hyacinth_text)}
                     </article>
                     <div className='product-images'>
@@ -65,7 +65,7 @@ function Solution(props) {
                         <img src={p2} alt="Cotton Product" />
                     </div>
                     <article>
-                        <h2>Cotton</h2>
+                        <h2>Cotton</h2><br></br>
                         {getNewLine(cotton_text)}
                     </article>
                 </div>

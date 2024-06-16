@@ -1,0 +1,53 @@
+.buy-container{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: absolute;
+    /* left: 17vw;
+    top: 4vh; */
+}
+/* .buy-col{
+    display: flex;
+    flex-direction: column;
+}
+.buy-col-b{
+    background-color: beige;
+} */
+
+.buy-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.buy-row-b svg{
+    width: 100%;
+}
+
+.buy-row{
+    color: #EEF2D4;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 24px */
+    letter-spacing: -0.24px;
+}
+
+.buy-row p{
+    position: relative;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+.buy-row h3{
+    position: relative;
+    /* width: fit-content; */
+    /* height: fit-content; */
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+.buy-icon:hover{
+    cursor: pointer;
+}

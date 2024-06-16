@@ -54,7 +54,7 @@ const Nav = () => {
                     to="products"
                     spy={true}
                     smooth={true}
-                    // offset={-70}
+                    offset={145}
                     duration={500}
                 >
                     PRODUCTS
@@ -67,7 +67,7 @@ const Nav = () => {
                     to="contact"
                     spy={true}
                     smooth={true}
-                    // offset={-70}
+                    // offset={-100}
                     duration={500}
                 >
                     CONTACT

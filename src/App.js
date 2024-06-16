@@ -9,11 +9,13 @@ import Products from './pages/Products';
 // import { ScrollContainer} from 'react-scroll-motion';
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="app-root">
       <Nav />
       <Landing  />
       <About />
       <Solution />
+      <Products />
+      <Contact />
     </div>
   );
 }

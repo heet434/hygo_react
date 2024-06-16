@@ -1,0 +1,46 @@
+.specs-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+.specs-row{
+    display: flex;
+    flex-direction: row;
+    /* gap: 5vw;
+    margin-top: 5vh; */
+}
+.specs-title{
+    text-align: center;
+    align-items: center;
+    margin-left: 0.5vw;
+}
+h2{
+    color: #EEF2D4;
+    font-family: Nohemi;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 24px */
+    letter-spacing: 18.96px;
+    text-transform: uppercase;
+    transform: translateY(50%);
+    top: 50%;
+    /* position: relative; */
+}
+.specs-cell{
+   
+    color: #EEF2D4;
+    text-align: center;
+    font-family: "League Spartan";
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 20px */
+    letter-spacing: -0.2px;
+}
+.specs-cell p{
+    transform: translateY(50%);
+    top: 50%;
+}
